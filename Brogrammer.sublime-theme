@@ -1,4 +1,9 @@
 [
+    {
+        "class": "title_bar",
+        "fg": ["background", 255, 255, 255, 0.7],
+        "bg": ["background", 0, 0, 0, 0.2]
+    },
 //
 // TABS (REGULAR)
 //
@@ -760,9 +765,10 @@
     {
         "class": "text_line_control",
         "layer0.texture": "",
-        "layer0.tint": [230, 230, 230],
+        "layer0.tint": [0, 0, 0],
         "layer0.opacity": 1,
-        "content_margin": [3, 6, 0, 3]
+        "content_margin": [3, 6, 0, 3],
+        "color_scheme_tint": [0, 0, 0],
     },
     {
         "class": "dropdown_button_control",
